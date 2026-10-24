@@ -32,14 +32,14 @@ Para abrir el proyecto en mi computador, primero necesito tener instalado Node.j
 
 5. En la terminal aparece una dirección local. La abro en el navegador para ver el catálogo.
 
-Para detener el proyecto, presiono `Ctrl + C` en la terminal.
+Para detener el proyecto, presiono Ctrl + C en la terminal.
 
 ## ¿Cómo está organizado?
 
-- `src`: contiene los archivos principales de la aplicación, como los componentes y los estilos.
-- `public`: contiene los recursos públicos del proyecto, como las imágenes de los videojuegos.
-- `package.json`: contiene la información del proyecto, las dependencias y los comandos que se utilizan para ejecutarlo.
-- `index.html`: es el archivo HTML desde el que se carga la aplicación.
+- src: contiene los archivos principales de la aplicación, como los componentes y los estilos.
+- public: contiene los recursos públicos del proyecto, como las imágenes de los videojuegos.
+- package.json: contiene la información del proyecto, las dependencias y los comandos que se utilizan para ejecutarlo.
+- index.html: es el archivo HTML desde el que se carga la aplicación.
 
 ## ¿Cómo utilicé React?
 
@@ -47,7 +47,7 @@ Para detener el proyecto, presiono `Ctrl + C` en la terminal.
 
 **Props:** me permiten pasar información de un componente a otro. Por ejemplo, cada tarjeta recibe los datos del videojuego que debe mostrar, como su nombre, imagen y descripción.
 
-**Estado (`useState`):** lo utilicé para manejar los cambios que ocurren en la página, como escribir en el buscador, seleccionar filtros, abrir los detalles de un juego y marcarlo como favorito.
+**Estado (useState):** lo utilicé para manejar los cambios que ocurren en la página, como escribir en el buscador, seleccionar filtros, abrir los detalles de un juego y marcarlo como favorito.
 
 **Eventos:** permiten que la página responda a las acciones del usuario. Por ejemplo, cuando escribo el nombre de un juego, selecciono un género, presiono el botón de favoritos o abro los detalles, se ejecutan las funciones correspondientes.
 
@@ -61,6 +61,4 @@ Para comprobar que las funciones sirven, puedo:
 4. Activar el filtro de favoritos para ver solamente los seleccionados.
 5. Abrir los detalles de un videojuego y consultar su información.
 
-
-**Proyecto realizado por:** Sheila Daniela Hernández Carrillo.
 
